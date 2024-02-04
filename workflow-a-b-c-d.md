@@ -11,6 +11,20 @@ graph LR;
 ```
 
 ---
+More branches:
+
+```mermaid
+graph LR;
+    A[Start] --> B[<a href='http://github.com/AlaaDiab7'>Process 1-a</a>] ;
+    A[Start] --> E[<a href='http://github.com/AlaaDiab7'>Process 1-b</a>] ;
+
+    B[<a href='http://github.com/AlaaDiab7'>Process 1-a</a>]-->|Link to | C[<a href='http://github.com/wepe/MachineLearning'>Process 2-a</a>];
+    B[<a href='http://github.com/AlaaDiab7'>Process 1-a</a>]-->|Link to | F[<a href='http://github.com/wepe/MachineLearning'>Process 2-b</a>];
+
+    C[<a href='http://github.com/wepe/MachineLearning'>Process 2-a</a>] -->|Link to Repo 2| D[<a href='http://google.com'>End</a>];
+    E[<a href='http://github.com/AlaaDiab7'>Process 1-b</a>] --> D[<a href='http://google.com'>End</a>];
+```
+
 
 other attempt:
 ```mermaid
