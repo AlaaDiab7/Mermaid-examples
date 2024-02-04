@@ -13,8 +13,8 @@ other attempt:
 ```mermaid
 graph TD;
     [Start] --> [Process 1] ;
-    [Process 1]-->|Link to [Repo 1]| [Process 2];
-    [Process 2] -->|Link to [Repo 2]| [End];
+    [Process 1]--> [Process 2];
+    [Process 2] --> [End];
 ```
 
 
