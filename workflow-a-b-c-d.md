@@ -12,9 +12,9 @@ other attempt:
 
 ```mermaid
 graph TD;
-    [Start] --> [Process 1] ;
-    [Process 1]--> [Process 2];
-    [Process 2] --> [End];
+    [Start]-->[Process 1];
+    [Process 1]-->[Process 2];
+    [Process 2]-->[End];
 ```
 
 
