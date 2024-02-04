@@ -23,6 +23,7 @@ graph LR;
 
     C[<a href='http://github.com/wepe/MachineLearning'>Process 2-a</a>] -->|Link to Repo 2| D[<a href='http://google.com'>End</a>];
     E[<a href='http://github.com/AlaaDiab7'>Process 1-b</a>] --> D[<a href='http://google.com'>End</a>];
+    F[<a href='http://github.com/wepe/MachineLearning'>Process 2-b</a>] --> D[<a href='http://google.com'>End</a>];
 ```
 
 
