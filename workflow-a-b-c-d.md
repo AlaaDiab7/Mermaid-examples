@@ -9,7 +9,15 @@ graph TD;
     C[Process 2] -->|Link to [Repo 2](https://github.com/wepe/MachineLearning)| D[End];
 ```
 other attempt:
+```mermaid
+graph TD;
+    A[Start] --> B[Process 1] ;
+    B[an <b>important</b> <a href='http://google.com'>link</a>]-->|Link to [Repo 1](https://github.com/AlaaDiab7)| C[Process 2];
+    C[Process 2] -->|Link to [Repo 2](https://github.com/wepe/MachineLearning)| D[End];
+```
+B[an <b>important</b> <a href='http://google.com'>link</a>]
 
+another attempt:
 ```mermaid
 graph TD;
     [Start]-->[Process 1];
